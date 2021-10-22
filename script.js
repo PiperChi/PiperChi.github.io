@@ -1,6 +1,6 @@
 var a;
 
-function on(){
+function getName(){
 //get valure from input field and save as "a"
 a = document.getElementById('name').value
 //creat LS key with value of "a"
