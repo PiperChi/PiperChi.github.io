@@ -8,7 +8,7 @@ localStorage.setItem('uName',a);
 //automatically take user to page two.html
 location.href="two.html";
 window.alert(a)
-}
+};
 
 function off(){
 var b = localStorage.getItem('uName');
