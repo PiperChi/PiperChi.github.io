@@ -10,7 +10,7 @@ location.href="two.html";
 window.alert(a)
 };
 
-function off(){
+function getUser(){
 var b = localStorage.getItem('uName');
 document.getElementById('placeholder').innerHTML = "Hello" + b;
 } 
