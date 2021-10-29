@@ -5,6 +5,8 @@ function getName(){
 a = document.getElementById('name').value
 //creat LS key with value of "a"
 localStorage.setItem('uName',a);
+document.getElementById('name').value = "";
+localStorage.clear()
 //automatically take user to page two.html
 location.href="two.html";
 window.alert(a)
